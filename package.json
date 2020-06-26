@@ -4,7 +4,8 @@
   "description": "learning full stack javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodmon --exec babel -node server.js --ignore public/",
+    "dev": "webpack"
   },
   "repository": {
     "type": "git",
