@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodmon --exec babel -node server.js --ignore public/",
-    "dev": "webpack"
+    "dev": "webpack -wd"
   },
   "repository": {
     "type": "git",
