@@ -1,0 +1,22 @@
+{
+  "name": "learn-fullstack-javascript",
+  "version": "1.0.0",
+  "description": "learning full stack javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erionalite/learn-fullstack-javascript.git"
+  },
+  "author": "erion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erionalite/learn-fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/erionalite/learn-fullstack-javascript#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
