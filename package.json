@@ -18,6 +18,8 @@
   "homepage": "https://github.com/erionalite/learn-fullstack-javascript#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongodb": "^3.5.9"
+    "mongodb": "^3.5.9",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
