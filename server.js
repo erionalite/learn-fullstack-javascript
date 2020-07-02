@@ -1,6 +1,8 @@
 import express from 'express'
 import config from './config';
 import apiRouter from './api'
+import React from 'react'
+
 const server = express();
 
 server.listen(config.port, ()=>{
