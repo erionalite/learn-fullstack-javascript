@@ -13,11 +13,7 @@ class App  extends React.Component {
     }
     render(){
         return (
-            
-            <div>
                 <MyHeader prop= {this.state.test}/>
-                <div>...</div>
-            </div>
         );
     }  
 };
