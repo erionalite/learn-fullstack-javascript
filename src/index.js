@@ -1,15 +1,19 @@
 import App  from './Components/App';
 import React from 'react'
 import ReactDOM from 'react-dom';
+import data from './testData'
+import axios from 'axios'
 window.React = React
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-);
+axios.get('/api/contests').then( resp => {
+    console.log(resp)
 
-setTimeout(()=>{
     ReactDOM.render(
-        <h2>.....</h2>,
+        <App initialContests = {resp.data.contests}/>,
         document.getElementById('root')
-    )},4000);
+    );
+    
+ }).catch(console.error)
+
+
+
