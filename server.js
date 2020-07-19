@@ -28,7 +28,7 @@ server.get('/api/contests',(reg,res) => {
 server.get('/api/contests/:contestId',(reg,res) => {
     
     let contest = contests[reg.params.contestId];
-    contest.description = 'test test'
+    contest.description = 'test testasdfasdfd'
     res.send(contest);
 });
 

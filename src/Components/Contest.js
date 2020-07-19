@@ -5,6 +5,7 @@ class Contest extends Component{
      return (
          <div className="Contest">
              {this.props.id}
+             {this.props.description}
          </div>
      );
  }
