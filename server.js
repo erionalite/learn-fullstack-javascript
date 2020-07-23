@@ -26,13 +26,13 @@ server.get('/api/contests',(reg,res) => {
     res.send({contests: contests});
 });
 server.get('/api/contests/:contestId',(reg,res) => {
-    
+    console.log(req.params.contestId);
     let contest = contests[reg.params.contestId];
     contest.description = 'test testasdfasdfd'
     res.send(contest);
 });
 
-server.get('/',(reg,res) => {
+server.get(['/','/contest/:contestId'],(reg,res) => {
     serverRender().then(content =>
         res.render('index',{
             content
